@@ -1,0 +1,51 @@
+
+.full-screen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.junaidjamshed.com/media/wysiwyg/fs-7.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Center the content horizontally and vertically */
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.select{
+    width: 300px ;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: mango-regular,Arial;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 38px;
+    margin: 15px auto 0 !important;
+    min-height: 38px;
+    padding: 0;
+    background: rgba(0,0,0,0.31);
+    border-color: #fff ;
+    text-align: center;
+  
+}
+.button{
+    width: 300px ;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: mango-regular,Arial;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 38px;
+    margin: 15px auto 0;
+    min-height: 38px;
+    padding: 0;
+    background: rgba(0,0,0,0.31);
+    border-color: #fff ;
+}
