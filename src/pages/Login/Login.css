@@ -1,0 +1,32 @@
+.textt{
+	height: 40px;
+	color: black;
+	background: #D5DBDB;
+	padding-top: 7px;
+}
+.imagee{
+	height: 80px;
+	}
+	.texttt{
+		
+			position: fixed;
+			bottom: 0;
+			
+			width: 100%;
+			background: #D5DBDB;
+			padding: 10px;
+			text-align: center;
+			font-size: 14px;
+			margin: 0; 
+		  
+	}
+	
+	@media (max-width: 767px) {
+		.texttt {
+			margin-top: 34px;
+		  padding: 5px; /* Adjust padding for smaller screens */
+		  position: static; /* Reset position to static */
+		  bottom: auto; /* Reset bottom to auto */
+		  /* Center horizontally */
+		}
+	  }
