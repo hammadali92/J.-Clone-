@@ -1,0 +1,57 @@
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar-nav .nav-item {
+  padding: 0 10px; /* Add padding to the menu items */
+}
+
+
+
+.navbar-nav .nav-link {
+  color: #191919; 
+  font-weight: 500; 
+  /* padding: 4px 15px; */
+  transition: color 0.3s ease; /* Add a smooth color transition effect */
+}
+.navbar-nav .nav-link:hover {
+  color:red; /* Change the color on hover */
+  transform: translateY(-3px); /* Add a slight upward translation on hover */
+  transition: color 0.3s ease, transform 0.3s ease; /* Include transform in the transition */
+}
+.logoutt:hover{color:red; /* Change the color on hover */
+  transform: translateY(-3px); /* Add a slight upward translation on hover */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.dropdown-menu {
+  background-color: white; /* Set background color for the dropdown menu */
+  border: 1px solid #ddd; /* Add a border to the dropdown menu */
+}
+
+.dropdown-item {
+  color: #191919; /* Set text color for dropdown items */
+  font-weight: normal; /* Reset font weight for dropdown items */
+  padding: 8px 20px; /* Add padding to dropdown items */
+}
+
+.dropdown-divider {
+  border-color: #ddd; /* Set color for the dropdown divider */
+}
+
+
+.bar {
+  position: fixed;
+  top: 0;
+  z-index: 1000; 
+  height:18vh;
+  width: 100%;
+  padding-top: 5px; 
+  background-color: white;}
+
+
+  @media (max-width: 767px) {
+    /* Your mobile-specific styles here */
+    .navbar-collapse {
+      background-color: #fff; /* Set the desired background color */
+    }
+  }
+  

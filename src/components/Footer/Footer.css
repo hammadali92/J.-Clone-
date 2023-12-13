@@ -1,0 +1,40 @@
+/* Footer.css */
+
+.custom-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ background:#E5E8E8;
+ padding: 15px;
+}
+
+.custom-item ul li{
+ /* Add padding for better click/tap area */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add transitions for a smooth effect */
+}
+
+.custom-item ul li:hover {
+  color: red;
+  transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+
+
+.custom-item li {
+  font-size: 1rem;
+  color: #333;
+}
+
+.custom-item li.fs-5 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .custom-container {
+   justify-content: center;
+  }
+
+}
